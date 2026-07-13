@@ -4,3 +4,4 @@ const app = express();
 app.listen(PORT, () => {
   console.log(`Server is running`);
 });
+app.use(express.json());
